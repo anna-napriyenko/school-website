@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Sign Up University</title>
+</head>
+
+<body>
+  <div class="main_page">
+  <form action="signup.php" method="POST">
+  	<label for="userlogin">Login Email:</label>
+    <input type="text" name="userlogin"><br>
+    <label for="userpassword">Password:</label>
+    <input type="password" name="userpassword"><br>
+      <label for="gender"> Gender: </label>
+      <input type="radio" name="gender" value="male"> Male 
+      <input type="radio" name="gender" value="female"> Female <br>
+       <select name="bachelorprogram"> 
+         <option value="computer science">Computer Science</option>
+         <option value="biology science">Biology Science</option>
+         <option value="chemistry science">Chemistry Science</option>
+        </select><br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" min="10" max="35"> <br>
+          <label for="country">Country: </label>
+          <input type="text" name="country"><br>
+    <input type="submit" value="Sign Up">
+  </form>
+            </div>
+</body>
+
+</html>
